@@ -1,0 +1,90 @@
+{
+  "author": "Nicolas Liendro",
+  "description": "PGP es un sistema para cifrar y descifrar datos",
+  "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
+  "version": "1.0",
+  "license": "MIT",
+  "homepage": "http://rocketbot.co/",
+  "linux": true,
+  "windows": true,
+  "mac": true,
+  "docker": false,
+  "name": "PGP",
+  "dependencies": {
+  },
+  "title": {
+    "en": "PGP",
+    "es": "PGP"
+  },
+  "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABzCAMAAACcnc3UAAAAM1BMVEX/////VQD/1L//qn//9O/+dDD+YBD/38//v5//6t/+aSD+oHD+ilD+gED/yq//tI/+lGBHnWn5AAAB6ElEQVRoge3b0bKCIBAGYEHU1LLe/2mPmSYmLIvCP+OZ3UvG9StMFsGKIiJaE3N0kmhqjScV2hxJtPkmweZEYs0PCTVnEmkuJND8kjhzJWGmWUmYeVN4sxRTzAuZjYabTV2izXHAQ5vvMRZsTsM61vxUEqg5Fy+kudRLoPkt0ThznRXATGsiAjM7BTcbRZq9ZkTsA6OmTVbEdoaYYnpM9oJHQrOsmGhKUzHRpCYTTWvy0MQmC3WYhjPG9h6TgzpMVmifyUDTm2E0gxlEc5ghNIupHllMxwTGbmojzbYMh32ruEyy1DhMu4kVYoopppj/zLx7qpK55zO9uXQtE1NMMcUUU0wxxRTzhDn48hwvMaQyq8G9DDbUe+DKc2oxL2zOK2YGaXZz2yOzuflS7bHOjTULO/lZ7LNzm0vnRqLRZmVn35ZWHXNNo82XnV2vj/JGP6nF1DPj7aZAKHUnj/WkOUx6cbzd9lPPNOn6Gfro1RZlLpCf2QP47Vz/8gzfDO/q2K9KTtHdQim0ydky29+M3ZPcN6BN1tag6XbomPmiNx6862DMfdfBYcaEbXL3l4s+dFa2ySYLUwXPyzP55Fn0a8aQJ9HFjCPPobN54D8gx39IdBEhQ7vu08zmeEV+h0GAOQ74Ry5r0PwDYckdMQopg/4AAAAASUVORK5CYII=",
+  "children": [
+    {
+      "en": {
+        "title": "Set credentials",
+        "description": "Set credentials to make available the API",
+        "title_options": "Select Option",
+        "options": null
+      },
+      "es": {
+        "title": "Establecer credenciales",
+        "description": "Establece las credenciales para tener disponible la API",
+        "title_options": "Seleccione una opción",
+        "options": null
+      },
+      "form": {
+        "css": "modal-lg",
+        "inputs": [
+          {
+            "type": "input",
+            "placeholder": "c479a66f...c9484d",
+            "title": {
+              "es": "Clave",
+              "en": "Llave"
+            },
+            "id": "key",
+            "css": "col-md-12"
+          },
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "archivo.*",
+              "en": "file.*"
+            },
+            "title": {
+              "es": "Ruta archivo encriptado:",
+              "en": "Path to encrypt file: "
+            },
+            "id": "path_file_encrypt",
+            "css": "col-md-12"
+          },
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "archivo.*",
+              "en": "file.*"
+            },
+            "title": {
+              "es": "Ruta archivo destino:",
+              "en": "Path to output file: "
+            },
+            "id": "path_file",
+            "css": "col-md-12"
+          },
+        
+        ]
+      },
+      "video_youtube": "",
+      "icon": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHMAAABzCAMAAACcnc3UAAAAM1BMVEX/////VQD/1L//qn//9O/+dDD+YBD/38//v5//6t/+aSD+oHD+ilD+gED/yq//tI/+lGBHnWn5AAAB6ElEQVRoge3b0bKCIBAGYEHU1LLe/2mPmSYmLIvCP+OZ3UvG9StMFsGKIiJaE3N0kmhqjScV2hxJtPkmweZEYs0PCTVnEmkuJND8kjhzJWGmWUmYeVN4sxRTzAuZjYabTV2izXHAQ5vvMRZsTsM61vxUEqg5Fy+kudRLoPkt0ThznRXATGsiAjM7BTcbRZq9ZkTsA6OmTVbEdoaYYnpM9oJHQrOsmGhKUzHRpCYTTWvy0MQmC3WYhjPG9h6TgzpMVmifyUDTm2E0gxlEc5ghNIupHllMxwTGbmojzbYMh32ruEyy1DhMu4kVYoopppj/zLx7qpK55zO9uXQtE1NMMcUUU0wxxRTzhDn48hwvMaQyq8G9DDbUe+DKc2oxL2zOK2YGaXZz2yOzuflS7bHOjTULO/lZ7LNzm0vnRqLRZmVn35ZWHXNNo82XnV2vj/JGP6nF1DPj7aZAKHUnj/WkOUx6cbzd9lPPNOn6Gfro1RZlLpCf2QP47Vz/8gzfDO/q2K9KTtHdQim0ydky29+M3ZPcN6BN1tag6XbomPmiNx6862DMfdfBYcaEbXL3l4s+dFa2ySYLUwXPyzP55Fn0a8aQJ9HFjCPPobN54D8gx39IdBEhQ7vu08zmeEV+h0GAOQ74Ry5r0PwDYckdMQopg/4AAAAASUVORK5CYII=",
+      "module": "decrypt",
+      "module_name": "PGP",
+      "visible": true,
+      "options": false,
+      "father": "module",
+      "group": "scripts",
+      "linux": true,
+      "windows": true,
+      "mac": true,
+      "docker": false
+    }
+  ]
+}
