@@ -40,9 +40,17 @@ module = GetParams("module")
 if module == "decrypt":
     key = GetParams("key")
     path_file_encrypt = GetParams("path_file_encrypt")
+    path_file_public_key = GetParams("path_file_public_key")
+    path_file_private_key = GetParams("path_file_private_key")
     path_file = GetParams("path_file")
     try:
         gpg = gnupg.GPG(gnupghome=cur_path_bin)
+        if path_file_public_key:
+            key_data = open(path_file_public_key).read()
+            import_result = gpg.import_keys(key_data)
+        if path_file_private_key:
+            key_data = open(path_file_private_key).read()
+            import_result = gpg.import_keys(key_data)
         with open(path_file_encrypt, 'rb') as f:
             status = gpg.decrypt_file(f, passphrase=key, output=path_file)
     except Exception as e:
