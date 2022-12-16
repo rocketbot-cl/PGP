@@ -4,25 +4,25 @@
 
 # PGP
   
-Encrypt and decrypt data with PGP.  
+Encriptar y desencriptar datos con PGP.  
 
-## How to install this module
+## Como instalar este módulo
   
-__Download__ and __install__ the content in 'modules' folder in Rocketbot path  
+__Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de Rocketbot.  
 
 
 
 ## Overview
 
 
-1. Create Keys  
-Create Public and Private Key
+1. Crear Keys  
+Crear Key Publica y Privada
 
-2. Encrypy file  
-Encrypt file using public key
+2. Encriptar archivo  
+Encriptar archivo usando la key publica
 
-3. Decrypy file  
-Decrypy file using private key  
+3. Desencriptar archivo  
+Desencriptar archivo usando la key privada  
 
 
 

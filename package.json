@@ -1,10 +1,10 @@
 {
-  "author": "Nicolas Liendro",
-  "description": "PGP es un sistema para cifrar y descifrar datos",
+  "author": "Nicolas Liendro - Juan Siro",
+  "description": "Encrypt and decrypt data with PGP. | Criptografar e descriptografar dados com PGP. | Encriptar y desencriptar datos con PGP.",
   "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-  "version": "1.0",
+  "version": "1.1.0",
   "license": "MIT",
-  "homepage": "http://rocketbot.co/",
+  "homepage": "http://rocketbot.com/",
   "linux": true,
   "windows": true,
   "mac": true,
@@ -14,20 +14,27 @@
   },
   "title": {
     "en": "PGP",
-    "es": "PGP"
+    "es": "PGP",
+    "pr": "PGP"
   },
   "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAARPSURBVFiFtZdfbBRFHMc/M3t7u7072grFtAVSGu+QHggRrVjFqA3xDz4UH40xJuiL0RffTCSYkPqMER80MWo0NfpAFB9MfKkaqgQkhEjoAW3pAS1XShGhf7i93ZvxoXS9a3t7fwK/p53f/Ga+n/3N7OxvhNaaSiwxjCWV0601PQg6ELSgaQFAkEGTQZMSgsNKWv1DcZxK5hXlAJKpuRZPGvsQvAqsqIgWptH0hVR+/2BHJFMTQHsa23Sye0G8iyBSoXCxaeZAH3Atu3d0PdmKAdoHZ5vNkPkj6O01CS+VOeZ67u7RZHSiLEDH2dxDeal/BtbeHXHfxgwldqU2hk+XBJh/89Bf90Dch3A9r7MwEz5AexrbzOV+qyTtdZPj1F84Q/RKGnXmJO7adm51djO9ubMCBnHMDYefWdgTPsCGc9lehHg/cGjeY82vP9D85y8IrQCYnJz0+3ViM2NvfYCy6oIZtP7w/IP2Xh/gzqc2XG63J779iMahv4t8hQAAurGJdO9XSBEEwFxI5eODHZGMBLjznQeKN50aWCI+G1uJCJlFPvHvFA3ffIIKOl4EEU8a+wBEfEhbQjnXKHPIbPn4Pawb82/rWhH+6N5DZm0SoTXx4z/R1t+HVvPLIswwR/Z+z5pVZlAmprW0VkupnO5y4qHbs744wIXEdq6s24QWAiUl5x/fTbY17vdrN4ecmmD8uhuUiRVSOd1Sa3qCxAHqrl4uaqfjjy2JST/6YlG7efgkWVcFQmhNj0TQUQ5Aem5R2w3bS2KcaENR23DnT95ACEGHRNz5o91DKwkhaBGJc9lpIFZq8DZ9lOemvmR16oTvG9n4JI4dBeDpqwMAmNk5IlPjfozT0MRnq9/m09Abvs825eKNORMqR79Fn2BP49fQVegd/P/xWoHbKnjO3uR5t78IYCEThRASQeD/OshmbltkZksmb1krWg5BRqJrAzg10so7B3fz+uEuvkttqAkin9fXJJpULQDHz67D9Qy01vRfrH4fZ13F1M28LYXgcC0AOzansU0PKQQvPXC5/IBlzDL1F1JJqx+YrnZwsu0qT20ZJd7k0JO4UIO4zDfUxz6XQ3EcNH2lAoN+KoZUGLKyqnqxRSxxZCiOIwFCKr9/voBcBkCVnmRbYpxn26rfw1IKHcN7E0ACzJfO+sCyAAFl+6b1E7ycGK4aIGqJI5ceaRgB8A8i17J7zVxu5+KSbEy18rvaUXKyrbHTJftGjPZlxOX1htbYCwvtskWpBiZuuMxkA9aiQrNN6axsDG0YT9qXFnyyMGA0GZ0wlNgFjPmEQPN9JjG7KLRqMw3h3R8N7SwUXwIAkNoYPu16XieIY3cLwjLFrTpLP3Fxqz2wuK+qq1m1y2EaQtfXiUMrVsVeq+pqVmiLL6eVQEgpdH2dcXRlRL4ysijlVQMsWNH1HJKZG7mHZxwdk1JoKfCk5HbYkBdDQh9SeXXwZlf9P5XM+x8urPH4W++mfwAAAABJRU5ErkJggg==",
   "children": [
     {
       "en": {
-        "title": "Set credentials",
-        "description": "Set credentials to make available the API",
+        "title": "Create Keys",
+        "description": "Create Public and Private Key",
         "title_options": "Select Option",
         "options": null
       },
       "es": {
-        "title": "Establecer credenciales",
-        "description": "Establece las credenciales para tener disponible la API",
+        "title": "Crear Keys",
+        "description": "Crear Key Publica y Privada",
+        "title_options": "Seleccione una opción",
+        "options": null
+      },
+      "pr": {
+        "title": "Criar Keys",
+        "description": "Criar Key Pública e Privada",
         "title_options": "Seleccione una opción",
         "options": null
       },
@@ -36,23 +43,262 @@
         "inputs": [
           {
             "type": "input",
-            "placeholder": "c479a66f...c9484d",
+            "placeholder": "[example@dom.com, example@dom.com]",
             "title": {
-              "es": "Clave",
-              "en": "Llave"
+              "es": "Destinatario",
+              "en": "Recipient",
+              "pr": "Destinatário"
             },
-            "id": "key",
+            "id": "recipients",
+            "css": "col-md-12"
+          },
+          {
+            "type": "input",
+            "placeholder": {
+              "es": "12345",
+              "en": "12345",
+              "pr": "12345"
+            },
+            "title": {
+              "es": "Frase secreta",
+              "en": "Passphrase",
+              "pr": "Frase secreta"
+            },
+            "id": "passphrase",
+            "css": "col-md-12"
+          },
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "path/to/bin/gpg.exe",
+              "en": "path/to/bin/gpg.exe",
+              "pr": "path/to/bin/gpg.exe"
+            },
+            "title": {
+              "es": "Ruta a GPG binario (OPCIONAL): ",
+              "en": "Path to GPG binary (OPTIONAL): ",
+              "pr": "Caminho para o binário GPG (OPCIONAL): "
+            },
+            "id": "path_bin",
+            "css": "col-md-12"
+          },
+          {
+            "type": "folder_select",
+            "placeholder": {
+              "es": "path/to/save",
+              "en": "path/to/save",
+              "pr": "path/to/save"
+            },
+            "title": {
+              "es": "Ruta de la carpeta de keys: ",
+              "en": "Keys folder path: ",
+              "pr": "Caminho da pasta do keys: "
+            },
+            "id": "path_folder",
+            "css": "col-md-12"
+          }        
+        ]
+      },
+      "video_youtube": "",
+      "icon": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAARPSURBVFiFtZdfbBRFHMc/M3t7u7072grFtAVSGu+QHggRrVjFqA3xDz4UH40xJuiL0RffTCSYkPqMER80MWo0NfpAFB9MfKkaqgQkhEjoAW3pAS1XShGhf7i93ZvxoXS9a3t7fwK/p53f/Ga+n/3N7OxvhNaaSiwxjCWV0601PQg6ELSgaQFAkEGTQZMSgsNKWv1DcZxK5hXlAJKpuRZPGvsQvAqsqIgWptH0hVR+/2BHJFMTQHsa23Sye0G8iyBSoXCxaeZAH3Atu3d0PdmKAdoHZ5vNkPkj6O01CS+VOeZ67u7RZHSiLEDH2dxDeal/BtbeHXHfxgwldqU2hk+XBJh/89Bf90Dch3A9r7MwEz5AexrbzOV+qyTtdZPj1F84Q/RKGnXmJO7adm51djO9ubMCBnHMDYefWdgTPsCGc9lehHg/cGjeY82vP9D85y8IrQCYnJz0+3ViM2NvfYCy6oIZtP7w/IP2Xh/gzqc2XG63J779iMahv4t8hQAAurGJdO9XSBEEwFxI5eODHZGMBLjznQeKN50aWCI+G1uJCJlFPvHvFA3ffIIKOl4EEU8a+wBEfEhbQjnXKHPIbPn4Pawb82/rWhH+6N5DZm0SoTXx4z/R1t+HVvPLIswwR/Z+z5pVZlAmprW0VkupnO5y4qHbs744wIXEdq6s24QWAiUl5x/fTbY17vdrN4ecmmD8uhuUiRVSOd1Sa3qCxAHqrl4uaqfjjy2JST/6YlG7efgkWVcFQmhNj0TQUQ5Aem5R2w3bS2KcaENR23DnT95ACEGHRNz5o91DKwkhaBGJc9lpIFZq8DZ9lOemvmR16oTvG9n4JI4dBeDpqwMAmNk5IlPjfozT0MRnq9/m09Abvs825eKNORMqR79Fn2BP49fQVegd/P/xWoHbKnjO3uR5t78IYCEThRASQeD/OshmbltkZksmb1krWg5BRqJrAzg10so7B3fz+uEuvkttqAkin9fXJJpULQDHz67D9Qy01vRfrH4fZ13F1M28LYXgcC0AOzansU0PKQQvPXC5/IBlzDL1F1JJqx+YrnZwsu0qT20ZJd7k0JO4UIO4zDfUxz6XQ3EcNH2lAoN+KoZUGLKyqnqxRSxxZCiOIwFCKr9/voBcBkCVnmRbYpxn26rfw1IKHcN7E0ACzJfO+sCyAAFl+6b1E7ycGK4aIGqJI5ceaRgB8A8i17J7zVxu5+KSbEy18rvaUXKyrbHTJftGjPZlxOX1htbYCwvtskWpBiZuuMxkA9aiQrNN6axsDG0YT9qXFnyyMGA0GZ0wlNgFjPmEQPN9JjG7KLRqMw3h3R8N7SwUXwIAkNoYPu16XieIY3cLwjLFrTpLP3Fxqz2wuK+qq1m1y2EaQtfXiUMrVsVeq+pqVmiLL6eVQEgpdH2dcXRlRL4ysijlVQMsWNH1HJKZG7mHZxwdk1JoKfCk5HbYkBdDQh9SeXXwZlf9P5XM+x8urPH4W++mfwAAAABJRU5ErkJggg==",
+      "module": "create_key",
+      "module_name": "PGP",
+      "visible": true,
+      "options": false,
+      "father": "module",
+      "group": "scripts",
+      "linux": true,
+      "windows": true,
+      "mac": true,
+      "docker": false
+    },
+    {
+      "en": {
+        "title": "Encrypy file",
+        "description": "Encrypt file using public key",
+        "title_options": "Select Option",
+        "options": null
+      },
+      "es": {
+        "title": "Encriptar archivo",
+        "description": "Encriptar archivo usando la key publica",
+        "title_options": "Seleccione una opción",
+        "options": null
+      },
+      "pr": {
+        "title": "Criptografar arquivo",
+        "description": "Criptografar arquivo usando key pública",
+        "title_options": "Seleccione una opción",
+        "options": null
+      },
+      "form": {
+        "css": "modal-lg",
+        "inputs": [
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "path/to/bin/gpg.exe",
+              "en": "path/to/bin/gpg.exe",
+              "pr": "path/to/bin/gpg.exe"
+            },
+            "title": {
+              "es": "Ruta a GPG binario (OPCIONAL): ",
+              "en": "Path to GPG binary (OPTIONAL): ",
+              "pr": "Caminho para o binário GPG (OPCIONAL): "
+            },
+            "id": "path_bin",
             "css": "col-md-12"
           },
           {
             "type": "file_select",
             "placeholder": {
               "es": "archivo.*",
-              "en": "file.*"
+              "en": "file.*",
+              "pr": "arquivo.*"
             },
             "title": {
-              "es": "Ruta archivo encriptado:",
-              "en": "Path to encrypt file: "
+              "es": "Ruta a archivo: ",
+              "en": "Path to file: ",
+              "pr": "Caminho para o arquivo: "
+            },
+            "id": "path_file",
+            "css": "col-md-12"
+          },
+          {
+            "type": "input",
+            "placeholder": "[example@dom.com, example@dom.com]",
+            "title": {
+              "es": "Destinatario",
+              "en": "Recipient",
+              "pr": "Destinatário"
+            },
+            "id": "recipients",
+            "css": "col-md-12"
+          },
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "archivo.asc",
+              "en": "file.acs",
+              "pr": "arquivo.asc"
+            },
+            "title": {
+              "es": "Ruta a Key publica: ",
+              "en": "Path to public Key: ",
+              "pr": "Caminho para a Key pública: "
+            },
+            "id": "path_file_public_key",
+            "css": "col-md-12"
+          },
+          {
+            "type": "folder_select",
+            "placeholder": {
+              "es": "path/to/save",
+              "en": "path/to/save",
+              "pr": "path/to/save"
+            },
+            "title": {
+              "es": "Ruta de la carpeta de archivo encriptado: ",
+              "en": "Encrypted file folder path: ",
+              "pr": "Caminho da pasta do arquivo criptografado: "
+            },
+            "id": "path_folder_encrypt",
+            "css": "col-md-12"
+          },          
+          {
+            "type": "input",
+            "placeholder": {
+              "es": "variable",
+              "en": "variable",
+              "pr": "variável"
+            },
+            "title": {
+              "es": "Variable",
+              "en": "Variable",
+              "pr": "Variável"
+            },
+            "remove_vars": true,
+            "id": "res",
+            "css": "col-md-12"
+          }  
+        ]
+      },
+      "video_youtube": "",
+      "icon": " data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAA3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAARPSURBVFiFtZdfbBRFHMc/M3t7u7072grFtAVSGu+QHggRrVjFqA3xDz4UH40xJuiL0RffTCSYkPqMER80MWo0NfpAFB9MfKkaqgQkhEjoAW3pAS1XShGhf7i93ZvxoXS9a3t7fwK/p53f/Ga+n/3N7OxvhNaaSiwxjCWV0601PQg6ELSgaQFAkEGTQZMSgsNKWv1DcZxK5hXlAJKpuRZPGvsQvAqsqIgWptH0hVR+/2BHJFMTQHsa23Sye0G8iyBSoXCxaeZAH3Atu3d0PdmKAdoHZ5vNkPkj6O01CS+VOeZ67u7RZHSiLEDH2dxDeal/BtbeHXHfxgwldqU2hk+XBJh/89Bf90Dch3A9r7MwEz5AexrbzOV+qyTtdZPj1F84Q/RKGnXmJO7adm51djO9ubMCBnHMDYefWdgTPsCGc9lehHg/cGjeY82vP9D85y8IrQCYnJz0+3ViM2NvfYCy6oIZtP7w/IP2Xh/gzqc2XG63J779iMahv4t8hQAAurGJdO9XSBEEwFxI5eODHZGMBLjznQeKN50aWCI+G1uJCJlFPvHvFA3ffIIKOl4EEU8a+wBEfEhbQjnXKHPIbPn4Pawb82/rWhH+6N5DZm0SoTXx4z/R1t+HVvPLIswwR/Z+z5pVZlAmprW0VkupnO5y4qHbs744wIXEdq6s24QWAiUl5x/fTbY17vdrN4ecmmD8uhuUiRVSOd1Sa3qCxAHqrl4uaqfjjy2JST/6YlG7efgkWVcFQmhNj0TQUQ5Aem5R2w3bS2KcaENR23DnT95ACEGHRNz5o91DKwkhaBGJc9lpIFZq8DZ9lOemvmR16oTvG9n4JI4dBeDpqwMAmNk5IlPjfozT0MRnq9/m09Abvs825eKNORMqR79Fn2BP49fQVegd/P/xWoHbKnjO3uR5t78IYCEThRASQeD/OshmbltkZksmb1krWg5BRqJrAzg10so7B3fz+uEuvkttqAkin9fXJJpULQDHz67D9Qy01vRfrH4fZ13F1M28LYXgcC0AOzansU0PKQQvPXC5/IBlzDL1F1JJqx+YrnZwsu0qT20ZJd7k0JO4UIO4zDfUxz6XQ3EcNH2lAoN+KoZUGLKyqnqxRSxxZCiOIwFCKr9/voBcBkCVnmRbYpxn26rfw1IKHcN7E0ACzJfO+sCyAAFl+6b1E7ycGK4aIGqJI5ceaRgB8A8i17J7zVxu5+KSbEy18rvaUXKyrbHTJftGjPZlxOX1htbYCwvtskWpBiZuuMxkA9aiQrNN6axsDG0YT9qXFnyyMGA0GZ0wlNgFjPmEQPN9JjG7KLRqMw3h3R8N7SwUXwIAkNoYPu16XieIY3cLwjLFrTpLP3Fxqz2wuK+qq1m1y2EaQtfXiUMrVsVeq+pqVmiLL6eVQEgpdH2dcXRlRL4ysijlVQMsWNH1HJKZG7mHZxwdk1JoKfCk5HbYkBdDQh9SeXXwZlf9P5XM+x8urPH4W++mfwAAAABJRU5ErkJggg==",
+      "module": "encrypt",
+      "module_name": "PGP",
+      "visible": true,
+      "options": false,
+      "father": "module",
+      "group": "scripts",
+      "linux": true,
+      "windows": true,
+      "mac": true,
+      "docker": false
+    },
+    {
+      "en": {
+        "title": "Decrypy file",
+        "description": "Decrypy file using private key",
+        "title_options": "Select Option",
+        "options": null
+      },
+      "es": {
+        "title": "Desencriptar archivo",
+        "description": "Desencriptar archivo usando la key privada",
+        "title_options": "Seleccione una opción",
+        "options": null
+      },
+      "pr": {
+        "title": "Descriptografar arquivo",
+        "description": "Descriptografar arquivo usando key privada",
+        "title_options": "Seleccione una opción",
+        "options": null
+      },
+      "form": {
+        "css": "modal-lg",
+        "inputs": [
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "path/to/bin/gpg.exe",
+              "en": "path/to/bin/gpg.exe",
+              "pr": "path/to/bin/gpg.exe"
+            },
+            "title": {
+              "es": "Ruta a GPG binario (OPCIONAL): ",
+              "en": "Path to GPG binary (OPTIONAL): ",
+              "pr": "Caminho para o binário GPG (OPCIONAL): "
+            },
+            "id": "path_bin",
+            "css": "col-md-12"
+          },
+          {
+            "type": "input",
+            "placeholder": {
+              "es": "12345",
+              "en": "12345",
+              "pr": "12345"
+            },
+            "title": {
+              "es": "Frase secreta",
+              "en": "Passphrase",
+              "pr": "Frase secreta"
+            },
+            "id": "passphrase",
+            "css": "col-md-12"
+          },
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "archivo.gpg",
+              "en": "file.gpg",
+              "pr": "arquivo.gpg"
+            },
+            "title": {
+              "es": "Ruta archivo encriptado: ",
+              "en": "Path to encrypt file: ",
+              "pr": "Caminho do arquivo criptografado: "
             },
             "id": "path_file_encrypt",
             "css": "col-md-12"
@@ -60,42 +306,49 @@
           {
             "type": "file_select",
             "placeholder": {
-              "es": "archivo.*",
-              "en": "file.*"
+              "es": "archivo.asc",
+              "en": "file.acs",
+              "pr": "arquivo.asc"
             },
             "title": {
-              "es": "Ruta clave publica .asc:",
-              "en": "Path to .asc public key: "
-            },
-            "id": "path_file_public_key",
-            "css": "col-md-12"
-          },
-          {
-            "type": "file_select",
-            "placeholder": {
-              "es": "archivo.*",
-              "en": "file.*"
-            },
-            "title": {
-              "es": "Ruta clave privada .asc :",
-              "en": "Path to .asc private key: "
+              "es": "Ruta a Key privada: ",
+              "en": "Path to private Key: ",
+              "pr": "Caminho para a Key privada: "
             },
             "id": "path_file_private_key",
             "css": "col-md-12"
           },
           {
-            "type": "file_select",
+            "type": "folder_select",
             "placeholder": {
-              "es": "archivo.*",
-              "en": "file.*"
+              "es": "path/to/save",
+              "en": "path/to/save",
+              "pr": "path/to/save"
             },
             "title": {
-              "es": "Ruta archivo destino:",
-              "en": "Path to output file: "
+              "es": "Ruta de la carpeta de archivo desencriptado: ",
+              "en": "Decrypted file folder path: ",
+              "pr": "Caminho da pasta de arquivo descriptografado: "
             },
-            "id": "path_file",
+            "id": "path_folder",
             "css": "col-md-12"
-          }        
+          },          
+          {
+            "type": "input",
+            "placeholder": {
+              "es": "variable",
+              "en": "variable",
+              "pr": "variável"
+            },
+            "title": {
+              "es": "Variable",
+              "en": "Variable",
+              "pr": "Variável"
+            },
+            "remove_vars": true,
+            "id": "res",
+            "css": "col-md-12"
+          }    
         ]
       },
       "video_youtube": "",
