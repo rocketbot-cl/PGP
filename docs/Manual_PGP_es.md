@@ -20,7 +20,7 @@ __Descarga__ e __instala__ el contenido en la carpeta 'modules' en la ruta de Ro
 Crear Key Publica y Privada
 |Parámetros|Descripción|ejemplo|
 | --- | --- | --- |
-|Destinatario||[example@dom.com, example@dom.com]|
+|Destinatario||['example@dom.com', 'example@dom.com']|
 |Frase secreta||12345|
 |Ruta a GPG binario (OPCIONAL) ||path/to/bin/gpg.exe|
 |Ruta de la carpeta de keys ||path/to/save|
@@ -32,7 +32,7 @@ Encriptar archivo usando la key publica
 | --- | --- | --- |
 |Ruta a GPG binario (OPCIONAL) ||path/to/bin/gpg.exe|
 |Ruta a archivo ||archivo.*|
-|Destinatario||[example@dom.com, example@dom.com]|
+|Destinatario||['example@dom.com', 'example@dom.com']|
 |Ruta a Key publica ||archivo.asc|
 |Ruta de la carpeta de archivo encriptado ||path/to/save|
 |Variable||variable|

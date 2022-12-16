@@ -43,7 +43,7 @@
         "inputs": [
           {
             "type": "input",
-            "placeholder": "[example@dom.com, example@dom.com]",
+            "placeholder": "['example@dom.com', 'example@dom.com']",
             "title": {
               "es": "Destinatario",
               "en": "Recipient",
@@ -166,7 +166,7 @@
           },
           {
             "type": "input",
-            "placeholder": "[example@dom.com, example@dom.com]",
+            "placeholder": "['example@dom.com', 'example@dom.com']",
             "title": {
               "es": "Destinatario",
               "en": "Recipient",
