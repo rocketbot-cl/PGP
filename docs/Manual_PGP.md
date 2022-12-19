@@ -20,7 +20,7 @@ __Download__ and __install__ the content in 'modules' folder in Rocketbot path
 Create Public and Private Key
 |Parameters|Description|example|
 | --- | --- | --- |
-|Recipient||[example@dom.com, example@dom.com]|
+|Recipient||['example@dom.com', 'example@dom.com']|
 |Passphrase||12345|
 |Path to GPG binary (OPTIONAL) ||path/to/bin/gpg.exe|
 |Keys folder path ||path/to/save|
@@ -32,7 +32,7 @@ Encrypt file using public key
 | --- | --- | --- |
 |Path to GPG binary (OPTIONAL) ||path/to/bin/gpg.exe|
 |Path to file ||file.*|
-|Recipient||[example@dom.com, example@dom.com]|
+|Recipient||['example@dom.com', 'example@dom.com']|
 |Path to public Key ||file.acs|
 |Encrypted file folder path ||path/to/save|
 |Variable||variable|

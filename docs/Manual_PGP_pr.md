@@ -20,7 +20,7 @@ __Baixe__ e __instale__ o conteúdo na pasta 'modules' no caminho do Rocketbot
 Criar Key Pública e Privada
 |Parâmetros|Descrição|exemplo|
 | --- | --- | --- |
-|Destinatário||[example@dom.com, example@dom.com]|
+|Destinatário||['example@dom.com', 'example@dom.com']|
 |Frase secreta||12345|
 |Caminho para o binário GPG (OPCIONAL) ||path/to/bin/gpg.exe|
 |Caminho da pasta do keys ||path/to/save|
@@ -32,7 +32,7 @@ Criptografar arquivo usando key pública
 | --- | --- | --- |
 |Caminho para o binário GPG (OPCIONAL) ||path/to/bin/gpg.exe|
 |Caminho para o arquivo ||arquivo.*|
-|Destinatário||[example@dom.com, example@dom.com]|
+|Destinatário||['example@dom.com', 'example@dom.com']|
 |Caminho para a Key pública ||arquivo.asc|
 |Caminho da pasta do arquivo criptografado ||path/to/save|
 |Variável||variável|
