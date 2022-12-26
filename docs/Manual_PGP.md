@@ -1,7 +1,3 @@
-
-
-
-
 # PGP
   
 Encrypt and decrypt data with PGP.  
@@ -48,3 +44,4 @@ Decrypy file using private key
 |Path to private Key ||file.acs|
 |Decrypted file folder path ||path/to/save|
 |Variable||variable|
+
