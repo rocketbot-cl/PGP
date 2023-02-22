@@ -18,11 +18,11 @@ __Download__ and __install__ the content in 'modules' folder in Rocketbot path
 1. Create Keys  
 Create Public and Private Key
 
-2. Encrypy file  
+2. Encrypt file  
 Encrypt file using public key
 
-3. Decrypy file  
-Decrypy file using private key  
+3. Decrypt file  
+Decrypt file using private key  
 
 
 
