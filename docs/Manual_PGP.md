@@ -21,7 +21,7 @@ Create Public and Private Key
 |Path to GPG binary (OPTIONAL) ||path/to/bin/gpg.exe|
 |Keys folder path ||path/to/save|
 
-### Encrypy file
+### Encrypt file
   
 Encrypt file using public key
 |Parameters|Description|example|
@@ -33,9 +33,9 @@ Encrypt file using public key
 |Encrypted file folder path ||path/to/save|
 |Variable||variable|
 
-### Decrypy file
+### Decrypt file
   
-Decrypy file using private key
+Decrypt file using private key
 |Parameters|Description|example|
 | --- | --- | --- |
 |Path to GPG binary (OPTIONAL) ||path/to/bin/gpg.exe|
